@@ -1,0 +1,28 @@
+body{
+    color:black;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: plum;
+}
+
+.buttons{
+    height: 100px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: blue;
+}
+
+#increaseButton {
+    background-color: rgb(210, 30, 105);
+
+}
+
+#decreaseButton {
+    background-color: aqua;
+}
+#resetButton {
+    background-color: dodgerblue;
+}
