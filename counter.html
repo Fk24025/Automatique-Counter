@@ -3,7 +3,8 @@
 
 <head>
 <meta charset="UTF-8">
-<meta name = "viewport" content = "width-device-width, initial-scale = 1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link rel="stylesheet" href="counter.css">
 
 <title> Automatic Counter</title>
@@ -11,28 +12,26 @@
 
 <body>
     <h1>The counter</h1>
-    <h2> This app will count the number of time that you play,
-        the number of time that you won, the number of time you lose. <br>
-        On this app
-        you can also reset the counter.<br>
+    <h2> This app counts the number of time you played,<br>
+        the number of time you increased, the number of time you decreased. <br>
+        On this app you can also reset the counter.<br>
         Have fun!
     </h2>
-<button 
-id="increaseButton" class="buttons" onclick="increaseCounter()">
-+
-</button>
-<button 
-id="decreaseButton" class="buttons" onclick="decreaseCounter()">
--
-</button>
-<button 
-id="resetButton" class="buttons" onclick="resetCounter()">
-console.log
-</button>
-<button id="totalPlay" class="buttons">Total play</button>
+    <div class="container">
+<button id="increaseButton" class="buttons"></button>
+<button id="decreaseButton" class="buttons" ></button>
+<button id="total" class="buttons"></button>
+ <br><br>
 
+<button class="operator">Increase</button>
+<button class="operator">Decrease</button>
+<button class="operator">Total</button><br>
+<button id="resetButton" class="operator" onclick="resetButton()">Reset</button>
+<br> <br>
+<p id="playTimes"></p>
+    </div>
 
 <script src="counter.js"></script>
 </body>
 
-</html>
+</html> 

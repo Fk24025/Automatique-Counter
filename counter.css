@@ -1,4 +1,10 @@
+.container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
 body{
+   
     color:black;
     font-size: medium;
     font-weight: bold;
@@ -22,7 +28,27 @@ body{
 
 #decreaseButton {
     background-color: aqua;
+    
+}
+#total{
+    background-color: bisque;
 }
 #resetButton {
-    background-color: dodgerblue;
+    background-color: red;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-top: 5px;
+    width: 150px;
+}
+.operator {
+    background-color: pink;
+    height: 32px;
+    width: 100px;
+    border-radius: 5px;
+    border-width: 3px;
+}
+.buttons:hover {
+    background-color: grey;
+    border-width: 5px;
+    font-weight: bold;
 }
